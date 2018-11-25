@@ -812,7 +812,7 @@ mismatches]{.idx}[modules/type mismatches in]{.idx}
 
 ```ocaml file=../../examples/code/files-modules-and-programs/freq-with-sig-mismatch/counter.mli,part=1
 (** Bump the frequency count for the given string. *)
-val touch : t -> string -> t
+val touch string -> t -> t
 ```
 
 and we try to compile, we'll get the following error.
